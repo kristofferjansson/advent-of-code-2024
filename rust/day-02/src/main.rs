@@ -2,8 +2,8 @@ use std::io;
 
 fn main() {
     let lines = io::stdin().lines().map(|l| l.unwrap()).collect();
-    println!("Day 1, problem 1: {}", problem_1(&lines));
-    println!("Day 1, problem 2: {}", problem_2(&lines));
+    println!("Day 2, problem 1: {}", problem_1(&lines));
+    println!("Day 2, problem 2: {}", problem_2(&lines));
 }
 
 fn problem_1(input: &Vec<String>) -> usize {
